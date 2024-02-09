@@ -12,12 +12,12 @@
 # print(largest([1,2,900,3,4,0,100,120,340,10000]))
 
 
-# def findLargest(l):
-#     large = sorted(l)
-#     return large[-1]
+def findLargest(l):
+    large = sorted(l)
+    return large[-1]
 
 
-# print(findLargest([1,90, 3,4,7,19,76]))
+print(findLargest([1,90, 3,4,7,19,76]))
 
 
 
