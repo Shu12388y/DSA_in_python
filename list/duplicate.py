@@ -1,8 +1,12 @@
-def removeDuplicate(l):
-    for i in range(len(l)    ):
-        if l[i] == l[i-1]:
-            l.remove(l[i-1])
-    return l
+def duplicate(l):
+    res = 1
+    for i in range(len(l)):
+        if l[res-1]!=l[i]:
+            l[res] = l[i]
+            res+=1
+
+    return res
 
 
-print(removeDuplicate([1,2,2,3,3,4]))    
+
+print(duplicate([1,2,2,3,3,4]))
