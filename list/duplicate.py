@@ -4,8 +4,7 @@ def duplicate(l):
         if l[res-1]!=l[i]:
             l[res] = l[i]
             res+=1
-
-    return res
+    return l[0:res:1]
 
 
 
