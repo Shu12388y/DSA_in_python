@@ -8,13 +8,15 @@ def find(l):
         return False    
 
 
-
-
-
-
-
-
-print(find([2,14,18,22,22]))                
-
+# print(find([2,14,18,22,22]))                
 
 # good for small size arrays
+
+
+# let's Optimise it
+
+
+
+
+
+
