@@ -1,20 +1,3 @@
-# def arrayCheck(arr):
-#     newArray=[]
-#     count = 0
-#     for i in range(len(arr)-1):
-#         if arr[i] == arr[i+1]:
-#             arr[i] = arr[i]*2
-#             arr[i+1] = 0
-#     # for i in range(len(arr)-1):
-#     #     if arr[i] != 0:
-#     #         newArray.append(arr[i])
-#     #     if arr[i] == 0:
-#     #         count += 1                           
-#     # for i in range(count):
-#     #     newArray.append(0)
-#     return arr   
-   
-      
 def removeZeros(arr):
         newArray =[]
         count = 0
