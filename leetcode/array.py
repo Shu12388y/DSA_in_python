@@ -37,13 +37,6 @@ def applyOperations(nums):
             results.append(0)
         return results
 
-
-
-# print(arrayCheck([847,847,0,0,0,399,416,416,879,879,206,206,206,272]))
-# print(arrayCheck([1,2,2,1,1,0]))
-# print(arrayCheck([1,0]))
-
-
 # print(removeZeros([1,2,2,1,1,0]))
 # print(removeZeros([847,847,0,0,0,399,416,416,879,879,206,206,206,272]))
 # print(removeZeros([1,0]))
