@@ -1,6 +1,6 @@
 def orangeandapple(apples,orange,s,t,a,b):
     apples_count = 1
-    orange_count =1
+    orange_count = 1
     for i in range(len(apples)):
         apples[i] = apples[i]+a
         if apples[i] >=s and apples[i]<=t:
