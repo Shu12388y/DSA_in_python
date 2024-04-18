@@ -1,5 +1,4 @@
 def bill(bil,k,b):
-    item = bil[k]
     bil[k] = 0
     total = 0
     for i  in range(len(bil)):
