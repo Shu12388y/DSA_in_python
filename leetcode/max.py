@@ -15,3 +15,18 @@ def maxNumber(arr):
 
 print(maxNumber([-10,8,6,7,-2,-3]))
 
+
+
+def maxTest(arr):
+    set_Nums = list(arr)
+    k = -1
+    for n in set_Nums :
+        if n > 0:
+            if n > k and -n in set_Nums:
+                k = n 
+
+    return k
+
+
+
+print(maxTest([-10,8,6,7,-2,3]))
