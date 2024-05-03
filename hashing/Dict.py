@@ -11,3 +11,7 @@ def dictArray(arr):
 
 
 print(dictArray([1,2,1,2,4,5,5]))        
+
+
+
+
