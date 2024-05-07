@@ -2,6 +2,7 @@ question = [["1. What is the largest planet of the solar system","a. Sun","b. Ea
 answers = ["a","b"]
 
 
+
 def quizRender(arr):
     score = 0
     for i in range(len(arr)):
