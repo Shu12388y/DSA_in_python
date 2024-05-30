@@ -5,3 +5,9 @@ print("hello world")
 
 def printName(n:str)->str:
     print(n)
+
+
+def printSum(n:int)->int:
+    return n +=n
+
+ print(printSum(12))
