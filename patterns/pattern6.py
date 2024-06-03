@@ -67,6 +67,31 @@ def pattern9():
 
 
 
+def pattern10():
+    start =1
+    for i in range(1,5):
+        if i%2 == 0:
+            start = 1
+        else:
+            start=0     
+        for j in range(0,i):
+            print(start,end="")
+            start = 1-start
+        print()    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def main():
     # pattern1()
     # pattern2()
@@ -76,7 +101,7 @@ def main():
     # pattern6()
     # pattern7()
     # pattern8()
-    pattern9()
-    # pattern4()
+    # pattern9()
+    pattern10()
 
 main()
