@@ -27,10 +27,17 @@ def pattern4():
         print()            
 
 
+def pattern5():
+    for i in range(0,6):
+        for j in range(1,6-i):
+            print(j,end="")
+        print()    
+
 def main():
     # pattern1()
     # pattern2()
     # pattern3()
-    pattern4()
+    # pattern4()
+    pattern5()
 
 main()
