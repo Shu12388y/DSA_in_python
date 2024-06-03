@@ -82,7 +82,13 @@ def pattern10():
 
 
 
-
+def pattern11():
+    for i in range(0,5):
+        for j in range(0,5-i-1):
+            print(" ",end="")
+        for j in range(0,i+1):
+            print("*",end="")
+        print()    
 
 
 
@@ -102,6 +108,8 @@ def main():
     # pattern7()
     # pattern8()
     # pattern9()
-    pattern10()
+    # pattern10()
+    pattern11()
+
 
 main()
