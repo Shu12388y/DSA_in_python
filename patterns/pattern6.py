@@ -20,11 +20,17 @@ def pattern3():
         print()    
 
 
+def pattern4():
+    for i in range(0,5):
+        for j in range(0,5-i):
+            print("*",end="")
+        print()            
+
 
 def main():
     # pattern1()
     # pattern2()
-    pattern3()
-
+    # pattern3()
+    pattern4()
 
 main()
