@@ -55,9 +55,9 @@ def pattern7():
             print(" ",end="")
         print()            
 
-
-
-
+def pattern8():
+    pattern6()
+    pattern7()
 
 
 
@@ -70,6 +70,7 @@ def main():
     # pattern4()
     # pattern5()
     # pattern6()
-    pattern7()
+    # pattern7()
+    pattern8()
 
 main()
