@@ -45,7 +45,15 @@ def pattern6():
             print(" ",end="")        
         print()            
 
-
+def pattern7():
+    for i in range(0,5):
+        for j in range(0,i):
+            print(" ",end="")
+        for j in range(0,9-(2*i)):
+            print("*",end="")
+        for j in range(0,i):
+            print(" ",end="")
+        print()            
 
 
 
@@ -61,6 +69,7 @@ def main():
     # pattern3()
     # pattern4()
     # pattern5()
-    pattern6()
+    # pattern6()
+    pattern7()
 
 main()
