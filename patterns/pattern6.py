@@ -14,9 +14,9 @@ def pattern2():
 
 
 def pattern3():
-    for i in range(1,5):
+    for i in range(0,6):
         for j in range(1,i):
-            print(i,end="")
+            print(j,end="")
         print()    
 
 
