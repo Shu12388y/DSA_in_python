@@ -61,6 +61,10 @@ def pattern8():
 
 
 
+def pattern9():
+    pattern2()
+    pattern4()
+
 
 
 def main():
@@ -71,6 +75,8 @@ def main():
     # pattern5()
     # pattern6()
     # pattern7()
-    pattern8()
+    # pattern8()
+    pattern9()
+    # pattern4()
 
 main()
