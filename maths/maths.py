@@ -33,20 +33,33 @@ def countDigits(n):
 def reverseNums(n):
     reversen = 0
     last = 0 
-    while n>1:
-        last = n%10
-        n = n/10
-        reversen = (reversen*10)+int(last)
-    return reversen    
+    if n>0:
+        while n>1:
+            last = n%10
+            n = n/10
+            reversen = (reversen*10)+int(last)
+        return reversen 
+    else:
+        n = abs(n)
+        while n>0:
+            last = n%10
+            n = n/10
+            reversen = (reversen*10)+int(last)
+        return -int(reversen) 
+    
 
 
 
+# time complexity is O(d) depend on the nums of digits
 
-
-
-
-
-
+def pallidrome(n):
+    compStr = n
+    res = 0
+    res= int(str(n)[::-1])
+    if res == compStr:
+        return "pallidrome"
+    else:
+        return "No a pallidrome"
 
 
 
@@ -58,7 +71,8 @@ def main():
     # functionMaths1(1234)
     # print(countDigit(12345))
     # print(countDigits(12345))
-    print(reverseNums(12345))
+    # print(reverseNums(10))
+    print(pallidrome(4553))
 
 
 
