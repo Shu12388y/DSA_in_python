@@ -62,6 +62,9 @@ def pallidrome(n):
         return "No a pallidrome"
 
 
+def pallidrome1(n:int) -> bool:
+    return str(n) ==  str(n)[::-1]
+
 
 
 
@@ -72,7 +75,8 @@ def main():
     # print(countDigit(12345))
     # print(countDigits(12345))
     # print(reverseNums(10))
-    print(pallidrome(4553))
+    # print(pallidrome(4553))
+    print(pallidrome1(122))
 
 
 
