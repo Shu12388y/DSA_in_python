@@ -64,5 +64,18 @@ def nPrint(n:int) -> int:
     nPrint(n-1)
 
 
-nPrint(10)
-    
+# nPrint(10)
+
+
+
+
+
+def fib(n:int)->int:
+    if n<=1:
+        return n
+    f = fib(n-1)
+    l= fib(n-2)
+    return f+l
+
+
+print(fib(4))
