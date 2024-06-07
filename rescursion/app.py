@@ -78,4 +78,14 @@ def fib(n:int)->int:
     return f+l
 
 
-print(fib(4))
+# print(fib(4))
+
+
+
+
+def sumN(n:int)->int:
+    if n==0:return 0
+    return n + sumN(n-1)
+
+
+print(sumN(4))
