@@ -9,8 +9,17 @@ def insertingSort(n:list)->list:
     return n
 
  
-print(insertingSort([13,46,24,52,20,9]))
+# print(insertingSort([13,46,24,52,20,9]))
 
 
 
-# def mergeSort(n:list)->list:
+def bubbleSort(n:list)->list:
+    temp = 0
+    for _ in range(len(n)):
+        for j in range(len(n)-1):
+            if n[j] > n[j+1]:
+                temp = n[j]
+                n[j] = n[j+1]
+                n[j+1] = temp
+    return n            
+print(bubbleSort([1,10,8,7]))
