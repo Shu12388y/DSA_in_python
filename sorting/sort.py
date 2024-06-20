@@ -23,3 +23,23 @@ def bubbleSort(n:list)->list:
                 n[j+1] = temp
     return n            
 print(bubbleSort([1,10,8,7]))
+
+
+
+# optimize bubble sort
+
+def optimizeBubbleSort(n:list):
+    for i in range(len(n)):
+        swapped = False
+        for j in range(len(n)-i-1):
+            if n[j] > n[j+1]:
+                n[j],n[j+1] = n[j+1],n[j]
+                swapped = True
+        if swapped == False:
+            return
+        return n
+    
+
+print()    
+
+                
