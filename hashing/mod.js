@@ -15,5 +15,3 @@ function get(n){
 
 
 console.log(get(-2))
-
-// console.log(-2*(-1))

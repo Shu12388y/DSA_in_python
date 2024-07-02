@@ -9,3 +9,6 @@ def mod(n:list)->list:
 
 
 print(mod([1,2,3,4,66,139]))
+
+
+
