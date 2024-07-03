@@ -1,3 +1,5 @@
+# worsr solution
+
 def reverseString(s1:str,s2:str)->bool:
     str1 = [i for i in s1]
     str2 = [i for i in s2]
@@ -19,3 +21,20 @@ def reverseString(s1:str,s2:str)->bool:
         return False
 
 print(reverseString("abab","abba"))
+
+
+
+
+
+# best solution
+
+# time complexity is O(n)
+# space complexity is O(1)
+
+def findRotation(s1:str,s2:str)->bool:
+    if len(s1) != len(s2):
+        return False
+    else:
+        temp = ''
+        temp = s1+s1
+        return temp.find(s2)  != -1
