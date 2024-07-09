@@ -11,7 +11,7 @@ def deleteLast(h:object):
     if h.next == None:
         return None
     curr  =  h 
-    while curr.next.next != None:
+    while curr.next.next != None:       # find the second last node
         curr = curr.next
     curr.next = None
     return h 
