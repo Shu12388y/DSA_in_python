@@ -16,3 +16,5 @@ def convertFirstTwo(s:str):
     
 
 convertFirstTwo("help me")
+convertFirstTwo("this is test")
+convertFirstTwo("help me to find it out ")
