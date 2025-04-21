@@ -4,3 +4,6 @@ def findMissing(nums:list):
         if i not in sortedNums:
             return i
 
+def findMissingNums(nums):
+    n = len(nums)
+    return n*(n+1)//2 - sum(nums)
