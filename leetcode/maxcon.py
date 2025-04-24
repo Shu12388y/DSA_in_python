@@ -1,18 +1,15 @@
-prevcount = 0
 def findMaxCons(a:list):
-    count = 0
+    temp  = 0 
+    max_count = 0
     for i in range(0,len(a)):
         if a[i] == 1:
-            count +=1
-            prevcount = count
+            temp +=1
+            max_count = max(max_count,temp)
         else:
-            count = 0
-    if prevcount > count:
-        return prevcount
-    else:
-        return count
+            temp = 0 
+    return max_count   
 
 print(findMaxCons([1,1,0,1,1,1]))
-print(findMaxCons([1,0,1,1,0,1]))
+# print(findMaxCons([1,0,1,1,0,1]))
 
 
