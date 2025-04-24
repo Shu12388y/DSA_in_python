@@ -30,3 +30,15 @@ def sortColor(nums: list):
 
 
 sortColor([2,0,2,1,1,0])
+
+
+def sortColor(nums: list):
+    countColor = {0: 0, 1: 0, 2: 0}
+    for num in nums:
+        countColor[num] += 1
+
+    nums.clear()
+    for i in range(3):
+        nums.extend([i] * countColor[i])
+
+    print(nums)
